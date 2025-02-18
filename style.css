@@ -904,7 +904,7 @@ footer .footer-con{
     .bot-con {
         z-index: 1;
         position: fixed;
-        top: 150px;
+        top: 350px;
         right: 13px;
         display: flex;
         justify-content: center;
