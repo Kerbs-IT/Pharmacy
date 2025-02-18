@@ -697,8 +697,250 @@ footer .footer-con{
     }
 }
 
+.chat-con{
+   background-color: rgba(240,240,240,1);
+}
 /* responsiveness */
-@media (max-width:575px) {
+
+@media (max-width:400px) {
+    .header-content-text h1 {
+        font-size: clamp(20px, 3vw, 100px);
+    }
+    .header-content-text .search input {
+        border: none;
+        padding: 10px;
+        font-size: clamp(10px, 1vw, 20px);
+    }
+    .header-content-text .search input.search-bar{
+        display: inline-block;
+        width: 100%;
+        padding: 10px 10px 10px 30px;
+        border-radius: 50px 0 0 50px;
+    }
+    .header-content-text .search i {
+        position: absolute;
+        left: 20px;
+        top: 13px;
+        opacity: .6;
+        font-size: 1vw;
+    }
+    .land-section {
+        position: relative;
+        overflow: hidden;
+    }
+    nav .links {
+        display: none;
+    }
+    .login-btn {
+        display: none;
+    }
+    .hamburger-con{
+        display: block;
+    }
+    .hamburger-con i{
+        font-size: 30px;
+    }
+    .hamburger-content{
+        position: absolute;
+        right: -547px;
+        width: 70%;
+        background-color:#1aca6a;
+        z-index: 1;
+        height: inherit;
+        display: flex;
+        justify-content: end;
+        border-radius: 30px 0 0 0;
+        padding-top: 20px;
+        transition: .3s ease-in-out;
+        display: block;
+    }
+    .hamburger-content ul{
+        list-style: none;
+        width: 100%;
+    }
+    .hamburger-content li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 10px;
+        border-bottom: 1px solid #0a8d45;
+    }
+    .hamburger-content li  a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    .hamburger-content li:hover{
+        background-color: #0a8d45;
+    }
+    .header-content-img{
+        display: none;
+  
+    }
+    .header-content-text {
+        width: 100%;
+    }
+    .header-content-text .categories{
+        margin: 10px 0;
+    }
+    .header-content-text .categories .items {
+    
+        width: 80px;
+        padding: 10px 10px;
+       
+    }
+    .header-content-text .search i{
+        font-size: 3vw;
+    }
+    .affiliate-con .affiliation-img {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap:10px;
+        height: 250px;
+        width: auto;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .section-content {
+        width: 70%;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .section-content-header-text {
+        font-size: 20px;
+    }
+    .section-description p i{
+        margin-right: 15px;
+    }
+    .key-benefits-image{
+        display: none;
+    }
+    .section-content-header-text {
+        width: 250px;
+    }
+    .second-benefits-image {
+        display: none;
+    }
+    section.key-benefits-con {
+        height: 420px;
+    }
+    .third-benefits-image {
+        display: none;
+    }
+    .key-benefits-con:nth-child(3){
+        height: 340px;
+    }
+    .medicine-img {
+        display: none;
+    }
+    .section-content:last-child{
+        align-items: start;
+    }
+    .sign-up-con {
+        display: none;
+    }
+    footer .footer-con {
+        width: 90%;
+        padding: 30px 0 10px 0;
+        justify-content: center;
+    }
+    .email-input {
+        margin: auto;
+        width: 300px;
+    }
+
+    .d-express-con {
+        display: none;
+    }
+    .footer .footer-con:nth-child(1){
+        padding: 30px;
+    }
+    .links {
+        align-items: center;
+    }
+    .email-input .input-field {
+        display: flex;
+        width: 300px;
+        height: auto;
+        justify-content: center;
+    }
+    .email-input .input-field i {
+        font-size: clamp(15px, 1.2vw, 50px);
+    }
+    .footer-highlight-text {
+        font-size: clamp(15px, 1.2vw, 50px);
+        letter-spacing: 1px;
+    }
+    .links a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 4px 0;
+        font-size: 12px;
+    }
+    .footer-con p{
+        font-size: 12px;
+    }
+    .footer-con:last-child {
+        height: 70px;
+    }
+    .medicine-text {
+        width: 300px;
+    }
+    .medicine-text h4.section-header {
+        font-size: clamp(25px, 1.7vw, 50px);
+    }
+    .review-con {
+        width: 300px;
+    }
+    .text-container {
+        width: 300px;
+        font-size: 13px;
+    }
+    .bot-con {
+        z-index: 1;
+        position: fixed;
+        top: 60px;
+        right: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 380px;
+        width: 330px;
+        transition: .3s ease-in-out;
+        scale: 0;
+        transform-origin: bottom right;
+    }
+    .bot-convo-content {
+        width: 320px;
+        height: 420px;
+    }
+    .chat-con {
+        height: 300px;
+    }
+    .chat-input textarea {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 230px;
+        border-radius: 10px;
+        border: 1px solid rgba(68, 68, 68, 0.5);
+        height: 35px;
+        padding: 7px 10px 0 10px;
+    }
+    .chat p {
+        font-size: 13px;
+        min-width: 30px;
+        max-width: 200px;
+        padding: 5px 10px;
+    }
+
+}
+@media (min-width:410px) and (max-width:575px) {
     .land-section {
         position: relative;
         overflow: hidden;
