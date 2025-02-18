@@ -30,7 +30,7 @@ botIconCon.addEventListener('click', () =>{
     }
 });
 
-sendMessage.addEventListener('click', () =>{
+sendMessage.addEventListener('click', async () =>{
     let chat = document.createElement("div");
         let message = document.createElement("p");
         let botIcon = document.createElement("i");
