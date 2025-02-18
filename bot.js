@@ -32,58 +32,58 @@ botIconCon.addEventListener('click', () =>{
 
 sendMessage.addEventListener('click', async () =>{
     let chat = document.createElement("div");
-        let message = document.createElement("p");
-        let botIcon = document.createElement("i");
+    let message = document.createElement("p");
+    let botIcon = document.createElement("i");
     
-        // add classes on new div
-        chat.classList.add("chat");
-        chat.classList.add("outgoing");
+    // add classes on new div
+    chat.classList.add("chat");
+    chat.classList.add("outgoing");
     
-        // add value to the p
-        message.textContent = textArea.value;
-        let userChat = textArea.value;
+    // add value to the p
+    message.textContent = textArea.value;
+    let userChat = textArea.value;
     
-        chat.appendChild(message);
-        chatCon.appendChild(chat);
+    chat.appendChild(message);
+    chatCon.appendChild(chat);
         
-        textArea.value = "";
+    textArea.value = "";
+
+    chatCon.scrollTop = chatCon.scrollHeight; // used to go on the latest message
+        
+
+
+    // bot variables
+    let botChat = document.createElement("div");
+    let botMessage = document.createElement("p");
+
+    // get the bot response
+    // always remember to use async in the event listener since it is async it need to follow 
+        
+    // loadingAnimation();
+    
+        
+    const reply = await getResponse(userChat); // use to get the reply from the JSOn file.
+    console.log(reply);
+
+
+    setTimeout(() =>{
+        botChat.classList.add("chat");
+        botChat.classList.add("incoming");
+    
+        // add class to bot icon
+        botIcon.classList.add("fa-solid");
+        botIcon.classList.add("fa-robot");
+    
+        // add content to the response of bot
+        botMessage.textContent = reply;
+        // append the icon and message
+        botChat.appendChild(botIcon);
+        botChat.appendChild(botMessage);
+        chatCon.appendChild(botChat);
 
         chatCon.scrollTop = chatCon.scrollHeight; // used to go on the latest message
         
-
-
-        // bot variables
-        let botChat = document.createElement("div");
-        let botMessage = document.createElement("p");
-
-        // get the bot response
-        // always remember to use async in the event listener since it is async it need to follow 
-        
-        loadingAnimation();
-    
-        
-        const reply = await getResponse(userChat); // use to get the reply from the JSOn file.
-        console.log(reply);
-
-
-            setTimeout(() =>{
-                botChat.classList.add("chat");
-                botChat.classList.add("incoming");
-    
-                // add class to bot icon
-                botIcon.classList.add("fa-solid");
-                botIcon.classList.add("fa-robot");
-    
-                // add content to the response of bot
-                botMessage.textContent = reply;
-                // append the icon and message
-                botChat.appendChild(botIcon);
-                botChat.appendChild(botMessage);
-                chatCon.appendChild(botChat);
-
-                chatCon.scrollTop = chatCon.scrollHeight; // used to go on the latest message
-        
-            },1000);
+        },1000);
 });
 
 
