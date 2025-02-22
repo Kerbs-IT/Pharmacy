@@ -1,0 +1,120 @@
+{
+    "greetings":{
+        "hi": ["Hi there!","Hello!", "Hey!", "Hi! How's it going","Sup!"],
+        "hello":["Hey!", "Hi!", "Hello!", "What's up?", "Howdy!"],
+        "hey": ["Hey!", "Hello!", "Hi there!", "How's it going?", "Yo!"],
+        "good morning": ["Good morning!", "Morning!", "Hope you have a great day!", "Rise and shine!"],
+        "goodmorning": ["Good morning!", "Morning!", "Hope you have a great day!", "Rise and shine!"],
+        "good afternoon": ["Good afternoon!", "Hope you're having a great day!", "Hey there!"],
+        "goodAfternoon": ["Good afternoon!", "Hope you're having a great day!", "Hey there!"],
+        "good evening": ["Good evening!", "Hey there!", "Hope you had a great day!"],
+        "good night": ["Good night!", "Sweet dreams!", "Rest well!", "Sleep tight!"],
+        "what's up": ["Not much!", "Just chilling!", "Hey! How about you?", "All good!"],
+        "how are you": ["I'm doing great, thanks!", "I'm fine, what about you?", "Feeling good!", "I'm an AI, but I'm doing well!"]
+    },
+    "self-introduction": {
+        "who are you": [
+            "I'm Deku, your pharmacy bot. I'm here to answer your questions.",
+            "Hey there! I'm Deku, your friendly pharmacy assistant.",
+            "I'm Deku, an AI designed to assist you with pharmacy-related queries."
+        ],
+        "what are you": [
+            "I'm an AI named Deku, a pharmacy bot at your service.",
+            "I'm Deku, an intelligent assistant created to help with pharmacy questions.",
+            "I'm a virtual assistant programmed to provide pharmacy-related information."
+        ],
+        "what do you do": [
+            "I provide information about medicines, prescriptions, and pharmacy-related topics.",
+            "I assist with pharmacy questions and guide you with useful health information.",
+            "I help answer your questions about medications and pharmacy services."
+        ],
+        "can you help me": [
+            "Of course! What pharmacy-related question do you have?",
+            "Yes! I'm here to help. Ask me anything about medicines or pharmacy services.",
+            "I'm here to assist! What would you like to know?"
+        ],
+        "are you a human": [
+            "Nope! I'm an AI bot, but I'm here to help like a human would.",
+            "I'm not human, but I can assist you with pharmacy-related queries!",
+            "I'm an AI assistant, but I try my best to provide human-like assistance."
+        ],
+        "where are you from": [
+            "I exist in the digital world, but you can find me wherever you need pharmacy help!",
+            "I'm from the world of artificial intelligence, created to assist you with pharmacy needs.",
+            "I don't have a physical home, but I'm always here to help you."
+        ]
+    },
+
+    "affiliations": {
+        "who are your affiliates": [
+            "We are affiliated with multiple trusted organizations.",
+            "Our affiliations ensure top-quality service and reliability.",
+            "We collaborate with reputable partners for better healthcare."
+        ],
+        "what are your affiliations": [
+            "We have strong partnerships with reputable healthcare providers.",
+            "Our affiliations help us deliver the best medical services.",
+            "We work closely with trusted pharmaceutical networks."
+        ]
+    },
+    "key_benefits": {
+        "what are your benefits": [
+            "We offer a wide range of benefits, including medicine availability, fast delivery, and easy refills.",
+            "Our key benefits include easy access to medications, doorstep delivery, and a streamlined prescription process.",
+            "You get quick access to medicines, 24-hour delivery, and an effortless refill system."
+        ],
+        "can i find all medicines here": [
+            "Yes! You can search and find all kinds of drugs in one place.",
+            "We provide access to a variety of medicines, including special treatments.",
+            "You can browse and check the availability of the medicines you need."
+        ],
+        "do you deliver medicines": [
+            "Yes! We deliver medicines straight to your doorstep.",
+            "Our delivery service ensures you receive your medicines within 24 hours.",
+            "We guarantee fast and reliable delivery for all orders."
+        ],
+        "how do i get my prescription": [
+            "You can get your prescription by clicking the 'Get Prescription' button on our website.",
+            "Simply request a prescription, and we’ll handle the rest.",
+            "You can obtain a prescription by consulting with one of our healthcare specialists."
+        ],
+        "how do i refill my medicine": [
+            "Set up your profile, and refilling becomes easy!",
+            "With just one click, your medicine will be on its way.",
+            "Being a member makes refilling your prescriptions hassle-free."
+        ],
+        "sell": [
+            "Yes! You can search and find all kinds of drugs in one place.",
+            "Yes! We provide access to a variety of medicines, including special treatments.",
+            "Yes! You can browse and check the availability of the medicines you need."
+        ]
+    },
+    "contact": {
+        "how can i contact you": [
+            "You can reach us through our contact page on the website.",
+            "Feel free to email us or call our support team for assistance. Email at darclarer@gmail.com",
+            "Our customer service is available to help you with any inquiries."
+        ],
+        "what is your phone number": [
+            "You can find our phone number on our contact page.",
+            "Please visit our website for the latest contact details.",
+            "Our support team is just a call away! Check our contact section for details."
+        ],
+        "do you have email support": [
+            "Yes! You can email us anytime for support.",
+            "We offer email support for all customer inquiries.",
+            "Feel free to send us an email, and we'll get back to you as soon as possible."
+        ],
+        "where are you located": [
+            "Our office location is listed on our website.",
+            "You can check our contact page for the exact address.",
+            "Visit our website to find our office location and directions.",
+            "We are located at Brgy.Sample Lot 45 Indang Main Road."
+        ]
+    },
+    "farewells":{
+        "goodbye":["Goodbye!", "See you later!", "Take care!", "Bye for now!"],
+        "bye":["Bye!", "See you soon!", "Later!", "Take it easy!"],
+        "good night": ["Good night!", "Sweet dreams!", "Rest well!", "Sleep tight!"]
+    }
+}
